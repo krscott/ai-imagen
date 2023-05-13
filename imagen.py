@@ -10,14 +10,6 @@ import os
 import sys
 
 
-def anytype(x: Any) -> Any:
-    return x
-
-
-def slugify(s: str) -> str:
-    return "".join(x for x in s.replace(" ", "-") if x.isalnum() or x == "-")
-
-
 def main():
     _ = load_dotenv()
     api_key = os.getenv("OPENAI_API_KEY")
