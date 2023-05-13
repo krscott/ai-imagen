@@ -6,6 +6,11 @@ A minimal usage example of [HuggingFace Transformers Agent](https://huggingface.
 
 ## Usage
 
+Copy `.env.example` and rename to `.env`.
+
+Add your OpenAI API key.
+
+Run the script:
 ```
 python imagen.py filename1 [filename2 ...]
 ```
